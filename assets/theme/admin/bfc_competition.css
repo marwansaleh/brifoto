@@ -1,0 +1,16 @@
+.ellipsis {
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+.panel-footer div.pagination {padding: 0; margin: 5px 0 0 0;}
+.panel-footer ul.pagination {margin-top: 0px; margin-bottom: 0px;}
+#banner-bottom {margin-top: 40px; padding-top: 50px;}
+
+/* gallery */
+.image-item-container {float: left; padding: 2px; border: solid 1px #ccc;}
+.image-item-container-selected {border-color: #008000;}
+.image-item-container input[type=checkbox]{position: absolute; margin: 5px 0 0 5px; padding: 10px;}
+.image-list-item {max-height:150px; width: auto; float: left;}
+.image-button-actions {position: absolute; margin: 5px 0 0 -30px;}
